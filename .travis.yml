@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.2.5
+deploy:
+  provider: heroku
+  api_key:
+    secure: eOiSFHEf38Rv9hm5O7JlayqJaAkW7Pp88I1lZg8bk4F8NRoqgmoc42e9h8vz1LMoXgapeJ5Gm1ybAkgtp+ZPxIWiH2q0gPQtKt1lUiMwhKMQ5Hng2NSyMByATFzYwT0i4r2ONjYpMzekWgXbBa+p7Luafa8n5tsFMs3Bg6Hu5ZNGjxKIOq/BFrgdhZC07SiNe5WarblCnKK0yh0/vOUM7aEYw7iyHPyfgkdltldzRZyrYIwqrEMd6Ho6ACBsN+TOhSecubqnF3gmZkjg9O4sq6QvA+BPA47UskPnX6M3UydixJTqotiJJdIfunKBFkSuqNyzjtCqu1Lm0vTibZU8wNaOaF/YoQTzlqZcO7lN4EFsv1Xs5zaKO96o5UNpDZboqbINIp7hJeE+YoOJswAx768+hSuPgIz0sUubls3llq2CUjhTIqB7XtYubuG0LMMuNyJvmDS7/bu9eGagU/PSjROs0s9eeZ8411xm/LORAaU5qf7xeV5FkqQMN3oM4x/fPiHSLABm2Ihq4//ZXeWaawA/s+S7e6girR9JB+0gIbxrs0mWe59beaKxcYkjMOamDJtNP3QRWuJTJjsA7GZy1vq50t15JHVSNaxbmUhDNgT127ARo5ofuMLcfE/R4WvuwEBSp9DdQbBgvlo/NRYstAGsDIsBpQzoscVYO6roEJA=
+  app: polar-crag-55721
+  on:
+    repo: tomomi-rivers/rakuten_enpit_example
